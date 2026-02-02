@@ -21,6 +21,7 @@ function getCars() {
         card.style.display = "block";
 
         card.addEventListener("click", function () {
+          // document.location.href = "/item?id=" + car.id;
           document.location.href = "/item?id=" + car.id;
         });
 
