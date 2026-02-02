@@ -28,10 +28,10 @@ function getCars() {
         //img.src = car.banner.url + "?tpl=big:box";
 
         const h3 = card.getElementsByTagName("H3")[0];
-        h3.textContent = car.name;
+        h3.textContent = car.marka;
 
         const p = card.getElementsByTagName("P")[0];
-        p.textContent = `${car.description.substring(0, 240)}`;
+        p.textContent = car.model;
 
         cardContainer.appendChild(card);
       });
