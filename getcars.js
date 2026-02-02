@@ -24,8 +24,8 @@ function getCars() {
           document.location.href = "/item?id=" + car.id;
         });
 
-        //const img = card.getElementsByTagName('IMG')[0]
-        //img.src = car.banner.url + "?tpl=big:box";
+        const img = card.getElementsByTagName("IMG")[0];
+        img.src = car.image.url + "?tpl=big:box";
 
         const h3 = card.getElementsByTagName("H3")[0];
         h3.textContent = car.marka;
